@@ -10,20 +10,20 @@ body {
     max-width: 900px;
     margin: 90px auto 40px auto;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(158, 102, 102, 0.75);
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(218, 10, 10, 0.15);
     backdrop-filter: blur(8px);
     text-align: center;
 }
 
 .wadah-utama h1 {
-    color: #2b1055;
+    color: black;
     margin-bottom: 5px;
 }
 
 .wadah-utama .pembuat {
-    color: #444;
+    color: grey;
     margin-bottom: 30px;
     font-size: 0.95rem;
 }
@@ -48,7 +48,7 @@ body {
     font-weight: bold;
     margin-bottom: 12px;
     font-size: 1.4rem;
-    color: #2b1055;
+    color: black;
 }
 
 .kolom-list ol,
@@ -67,6 +67,6 @@ body {
 
 .kolom-list li:hover {
     transform: translateX(6px);
-    color: #03045E;
+    color: darkolivegreen;
     font-weight: bold;
 }

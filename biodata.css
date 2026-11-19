@@ -1,68 +1,41 @@
-/* Mengatur gaya dasar seluruh halaman web */
-
 body {
-
-background-color: #f0f8ff;
-
-font-family: Arial, sans-serif;
-
-color: #333333;
-
+    background-color: lightskyblue;
+    font-family: Arial, sans-serif;
+    color: darkblue;
 }
 
-/* Mengatur wadah paling luar agar teksnya rata ten
-
-.wadah-utama (
-
+.wadah-utama {
+    text-align: center;
 }
 
-text-align: center;
-
-/* Menghias bagian judul */
-
-judul h1 {
-
-color: #2c3e50;
-
-/* Membuat tampilan kotak Biodata seperti "Kartu
-
-kartu-biodata (
-background-color: white;
-width: 90%;
-max-width: 400px;
-margin: auto;
-border-style: solid;
-border-color: #3408b;
-bonger-radius:15px;
-background-color: white;
-width: 90%
-max-width: 400px;
-margin: auto;
-border-style: solid;
-border-color: #3498db;
-border-radius: 15px;
-
-/* Menghias Judul di dalam kartu */
-
-}
-kartu-biodata h2 {
-background-color: #124363;
-color: white;
+.judul h1 {
+    color: lightslategray;
 }
 
-/* Menghias foto profil agar bentuknya lingkaran dan kekinian */
-
-bungkus-foto img {
-width: 120px;
-height: 120px;
-border-style:solid;
-border-color:#3498db;
-border-radius:50%;
+.kartu-biodata {
+    background-color: yellow;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-color: #a47dab;
+    border-radius: 15px;
 }
 
-/* Mengatur teks biodata agar rapi dan rata kiri
+.kartu-biodata h2 {
+    background-color: #000000;
+    color: yellow;
+}
 
-  .informasi-diri (
-text-align:left;
-font-size: 14px;
-)
+.bungkus-foto img {
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color: #a47dab;
+    border-radius: 50%;
+}
+
+.informasi-diri {
+    text-align: left;
+    font-size: 14px;
+}
